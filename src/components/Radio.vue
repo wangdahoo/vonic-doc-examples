@@ -1,6 +1,5 @@
 <template>
   <div class="page has-navbar" v-nav="{title: '单选框'}">
-
     <div class="page-content">
       <div class="item item-divider">
         选择性别:

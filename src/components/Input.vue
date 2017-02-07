@@ -1,6 +1,5 @@
 <template>
   <div class="page" v-nav="{title: '输入框'}">
-
     <div class="page-content padding-top">
 
       <!-- type: text, password, email, tel -->

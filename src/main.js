@@ -7,6 +7,7 @@ import MdButton from './components/MdButton.vue'
 import Input from './components/Input.vue'
 import Search from './components/Search.vue'
 import Radio from './components/Radio.vue'
+import Checkbox from './components/Checkbox.vue'
 
 // Routes
 const routes = [
@@ -14,7 +15,8 @@ const routes = [
   { path: '/mdButton', component: MdButton },
   { path: '/input', component: Input },
   { path: '/search', component: Search },
-  { path: '/radio', component: Radio }
+  { path: '/radio', component: Radio },
+  { path: '/checkbox', component: Checkbox },
 ]
 
 Vue.use(Vonic.app, {
