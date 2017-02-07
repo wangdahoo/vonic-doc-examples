@@ -8,6 +8,7 @@ import Input from './components/Input.vue'
 import Search from './components/Search.vue'
 import Radio from './components/Radio.vue'
 import Checkbox from './components/Checkbox.vue'
+import Toggle from './components/Toggle.vue'
 
 // Routes
 const routes = [
@@ -17,6 +18,7 @@ const routes = [
   { path: '/search', component: Search },
   { path: '/radio', component: Radio },
   { path: '/checkbox', component: Checkbox },
+  { path: '/toggle', component: Toggle },
 ]
 
 Vue.use(Vonic.app, {
