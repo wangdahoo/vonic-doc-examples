@@ -4,11 +4,11 @@
   "description": "Webpack Template for Vonic 2.",
   "author": "wangdahoo <157195705@qq.com>",
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot --port=8081",
+    "dev": "webpack-dev-server --inline --hot --port=8080",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "vonic": "^2.0.0-alpha.6"
+    "vonic": "^2.0.0-alpha.9"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
