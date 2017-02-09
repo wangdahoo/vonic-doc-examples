@@ -10,6 +10,8 @@ import Radio from './components/Radio.vue'
 import Checkbox from './components/Checkbox.vue'
 import Toggle from './components/Toggle.vue'
 import ToastAndLoading from './components/ToastAndLoading.vue'
+import List from './components/List.vue'
+import Cells from './components/Cells.vue'
 
 // Routes
 const routes = [
@@ -21,6 +23,8 @@ const routes = [
   { path: '/checkbox', component: Checkbox },
   { path: '/toggle', component: Toggle },
   { path: '/toastAndLoading', component: ToastAndLoading },
+  { path: '/list', component: List },
+  { path: '/cells', component: Cells },
 ]
 
 Vue.use(Vonic.app, {
