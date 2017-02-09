@@ -1,3 +1,5 @@
+import './style.css'
+
 import Vue from 'vue'
 import Vonic from 'vonic/src/index.js'
 
@@ -12,6 +14,7 @@ import Toggle from './components/Toggle.vue'
 import ToastAndLoading from './components/ToastAndLoading.vue'
 import List from './components/List.vue'
 import Cells from './components/Cells.vue'
+import Tabs from './components/Tabs.vue'
 
 // Routes
 const routes = [
@@ -25,6 +28,7 @@ const routes = [
   { path: '/toastAndLoading', component: ToastAndLoading },
   { path: '/list', component: List },
   { path: '/cells', component: Cells },
+  { path: '/tabs', component: Tabs },
 ]
 
 Vue.use(Vonic.app, {

@@ -1,7 +1,7 @@
 <template>
   <div class="page has-navbar" v-nav="{title: '列表'}">
-    <div class="page-content" style="padding-top: 54px;">
-
+    <div class="page-content">
+      
       <div class="item item-divider">
         Thin Border
       </div>
@@ -91,3 +91,8 @@
     </div>
   </div>
 </template>
+<style>
+  .page-content {
+    padding-top: 54px;
+  }
+</style>
