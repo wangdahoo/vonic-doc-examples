@@ -1,5 +1,5 @@
 <template>
-  <div class="page has-navbar" v-nav="{title: 'Tabs'}">
+  <div class="page has-navbar" v-nav="{title: '选项卡'}">
     <tabs :tab-items="tabs" :tab-index="tabIndex" :on-tab-click="onTabClick"></tabs>
 
     <div class="page-content">

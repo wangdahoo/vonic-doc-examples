@@ -15,6 +15,23 @@ import ToastAndLoading from './components/ToastAndLoading.vue'
 import List from './components/List.vue'
 import Cells from './components/Cells.vue'
 import Tabs from './components/Tabs.vue'
+import ButtonBar from './components/ButtonBar.vue'
+import Scalable from './components/Scalable.vue'
+import Swiper from './components/Swiper.vue'
+import Scroll from './components/Scroll.vue'
+import Cascade from './components/Cascade.vue'
+import Dialog from './components/Dialog.vue'
+import Popup from './components/Popup.vue'
+import Modal from './components/Modal.vue'
+import ActionSheet from './components/ActionSheet.vue'
+import Sidebar from './components/Sidebar.vue'
+
+import Tabbar from './components/Tabbar.vue'
+import TabbarHome from './components/tabbar/Home'
+import TabbarCart from './components/tabbar/Cart'
+import TabbarDiscount from './components/tabbar/Discount'
+import TabbarUser from './components/tabbar/User'
+import PageFromTabbar from './components/tabbar/PageFromTabbar'
 
 // Routes
 const routes = [
@@ -29,6 +46,31 @@ const routes = [
   { path: '/list', component: List },
   { path: '/cells', component: Cells },
   { path: '/tabs', component: Tabs },
+  { path: '/buttonbar', component: ButtonBar },
+  { path: '/scalable', component: Scalable },
+  { path: '/swiper', component: Swiper },
+  { path: '/scroll', component: Scroll },
+  { path: '/cascade', component: Cascade },
+  { path: '/dialog', component: Dialog },
+  { path: '/Popup', component: Popup },
+  { path: '/modal', component: Modal },
+  { path: '/actionsheet', component: ActionSheet },
+  { path: '/sidebar', component: Sidebar },
+
+  // tabbar
+  {
+    path: '/tabbar',
+    component: Tabbar,
+    children: [
+      { path: 'home', component: TabbarHome },
+      { path: 'cart', component: TabbarCart },
+      { path: 'discount', component: TabbarDiscount },
+      { path: 'user', component: TabbarUser },
+    ]
+  },
+
+  { path: '/pageFromTabbar', component: PageFromTabbar },
+
 ]
 
 Vue.use(Vonic.app, {
