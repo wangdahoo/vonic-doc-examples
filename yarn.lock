@@ -1365,6 +1365,10 @@ extsprintf@1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/extsprintf/download/extsprintf-1.0.2.tgz#e1080e0658e300b06294990cc70e1502235fd550"
 
+fastclick@^1.0.6:
+  version "1.0.6"
+  resolved "http://registry.npm.taobao.org/fastclick/download/fastclick-1.0.6.tgz#161625b27b1a5806405936bda9a2c1926d06be6a"
+
 fastparse@^1.1.1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/fastparse/download/fastparse-1.1.1.tgz#d1e2643b38a94d7583b479060e6c4affc94071f8"
@@ -3555,14 +3559,15 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vonic@^2.0.0-alpha.9:
-  version "2.0.0-alpha.9"
-  resolved "http://registry.npm.taobao.org/vonic/download/vonic-2.0.0-alpha.9.tgz#7b6a934626e927a9cf9b65db11639fe6b6d65f17"
+vonic@^2.0.0-alpha.15:
+  version "2.0.0-alpha.15"
+  resolved "http://registry.npm.taobao.org/vonic/download/vonic-2.0.0-alpha.15.tgz#3a17e29bd1fea5ed446763b85740e1c2699a89d8"
   dependencies:
     axios "^0.15.3"
+    fastclick "^1.0.6"
     vue "^2.1.8"
     vue-router "^2.1.0"
-    vue-scroller "^2.1.0"
+    vue-scroller "^2.1.2"
 
 vue-hot-reload-api@^2.0.1:
   version "2.0.8"
@@ -3588,9 +3593,9 @@ vue-router@^2.1.0:
   version "2.2.0"
   resolved "http://registry.npm.taobao.org/vue-router/download/vue-router-2.2.0.tgz#65a29ce23d718ddf09237938a58a01b3d1acc77c"
 
-vue-scroller@^2.1.0:
-  version "2.1.0"
-  resolved "http://registry.npm.taobao.org/vue-scroller/download/vue-scroller-2.1.0.tgz#eb63a11be86b50b2ef2e4eb3cc480a1191674f13"
+vue-scroller@^2.1.2:
+  version "2.1.2"
+  resolved "http://registry.npm.taobao.org/vue-scroller/download/vue-scroller-2.1.2.tgz#272d556c30fefb22dcc60c78f61ab6b94cb6c684"
   dependencies:
     vue "^2.1.0"
     vue-router "^2.1.0"
